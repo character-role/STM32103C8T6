@@ -1,0 +1,4 @@
+ToolSet: w64 10.0 (local)@D:\C-work\gcc\mingw64
+Options: 
+
+Options:
