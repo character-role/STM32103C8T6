@@ -1,0 +1,12 @@
+.\objects\tim.o: ..\Periphery\TIM\TIM.c
+.\objects\tim.o: ..\Periphery\TIM\TIM.h
+.\objects\tim.o: ..\CORE\stm32f10x.h
+.\objects\tim.o: ..\CORE\core_cm3.h
+.\objects\tim.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tim.o: ..\CORE\system_stm32f10x.h
+.\objects\tim.o: ..\CORE\stm32f10x_conf.h
+.\objects\tim.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\tim.o: ..\CORE\stm32f10x.h
+.\objects\tim.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\tim.o: ..\FWLIB\inc\stm32f10x_tim.h
+.\objects\tim.o: ..\FWLIB\inc\misc.h

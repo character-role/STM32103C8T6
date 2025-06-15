@@ -1,0 +1,14 @@
+.\objects\wifi.o: ..\Periphery\WiFi\WiFi.c
+.\objects\wifi.o: ..\Periphery\WiFi\WiFi.h
+.\objects\wifi.o: ..\CORE\stm32f10x.h
+.\objects\wifi.o: ..\CORE\core_cm3.h
+.\objects\wifi.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wifi.o: ..\CORE\system_stm32f10x.h
+.\objects\wifi.o: ..\CORE\stm32f10x_conf.h
+.\objects\wifi.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\wifi.o: ..\CORE\stm32f10x.h
+.\objects\wifi.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\wifi.o: ..\FWLIB\inc\misc.h
+.\objects\wifi.o: ..\FWLIB\inc\stm32f10x_usart.h
+.\objects\wifi.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\wifi.o: .\Main\common.h

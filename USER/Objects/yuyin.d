@@ -1,0 +1,14 @@
+.\objects\yuyin.o: ..\Periphery\YuYin\YuYin.c
+.\objects\yuyin.o: ..\Periphery\YuYin\YuYin.h
+.\objects\yuyin.o: ..\CORE\stm32f10x.h
+.\objects\yuyin.o: ..\CORE\core_cm3.h
+.\objects\yuyin.o: D:\KEIL\Keil5.2MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\yuyin.o: ..\CORE\system_stm32f10x.h
+.\objects\yuyin.o: ..\CORE\stm32f10x_conf.h
+.\objects\yuyin.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\yuyin.o: ..\CORE\stm32f10x.h
+.\objects\yuyin.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\yuyin.o: ..\FWLIB\inc\stm32f10x_usart.h
+.\objects\yuyin.o: ..\FWLIB\inc\misc.h
+.\objects\yuyin.o: .\Main\common.h
+.\objects\yuyin.o: D:\KEIL\Keil5.2MDK\ARM\ARMCC\Bin\..\include\stdio.h

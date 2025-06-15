@@ -1,0 +1,11 @@
+.\objects\common.o: Main\common.c
+.\objects\common.o: Main\common.h
+.\objects\common.o: ..\CORE\stm32f10x.h
+.\objects\common.o: ..\CORE\core_cm3.h
+.\objects\common.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\common.o: ..\CORE\system_stm32f10x.h
+.\objects\common.o: ..\CORE\stm32f10x_conf.h
+.\objects\common.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\common.o: ..\CORE\stm32f10x.h
+.\objects\common.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\common.o: ..\FWLIB\inc\misc.h

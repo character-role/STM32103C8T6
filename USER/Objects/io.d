@@ -1,0 +1,10 @@
+.\objects\io.o: ..\Periphery\IO\IO.c
+.\objects\io.o: ..\Periphery\IO\IO.h
+.\objects\io.o: ..\CORE\stm32f10x.h
+.\objects\io.o: ..\CORE\core_cm3.h
+.\objects\io.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\io.o: ..\CORE\system_stm32f10x.h
+.\objects\io.o: ..\CORE\stm32f10x_conf.h
+.\objects\io.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\io.o: ..\CORE\stm32f10x.h
+.\objects\io.o: ..\FWLIB\inc\stm32f10x_rcc.h

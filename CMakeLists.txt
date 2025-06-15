@@ -1,0 +1,111 @@
+cmake_minimum_required(VERSION 3.20)
+project()
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(APP)
+include_directories(CORE)
+include_directories(FATFS)
+include_directories(FWLIB/inc)
+include_directories(Periphery/AD)
+include_directories(Periphery/DHT11)
+include_directories(Periphery/EXTI)
+include_directories(Periphery/IO)
+include_directories(Periphery/SMotor)
+include_directories(Periphery/SysTick)
+include_directories(Periphery/TIM)
+include_directories(Periphery/WiFi)
+include_directories(USER/Main)
+
+add_executable(
+        APP/app.c
+        APP/app.h
+        APP/app_use.c
+        APP/app_use.h
+        CORE/core_cm3.c
+        CORE/core_cm3.h
+        CORE/stm32f10x.h
+        CORE/stm32f10x_conf.h
+        CORE/stm32f10x_it.c
+        CORE/stm32f10x_it.h
+        CORE/system_stm32f10x.c
+        CORE/system_stm32f10x.h
+        FATFS/option/cc932.c
+        FATFS/option/cc936.c
+        FATFS/option/cc949.c
+        FATFS/option/cc950.c
+        FATFS/option/ccsbcs.c
+        FATFS/option/syscall.c
+        FATFS/diskio.c
+        FATFS/diskio.h
+        FATFS/ff.c
+        FATFS/ff.h
+        FATFS/ffconf.h
+        FATFS/integer.h
+        FATFS/sdio_sdcard.c
+        FATFS/sdio_sdcard.h
+        FWLIB/inc/misc.h
+        FWLIB/inc/stm32f10x_adc.h
+        FWLIB/inc/stm32f10x_bkp.h
+        FWLIB/inc/stm32f10x_can.h
+        FWLIB/inc/stm32f10x_cec.h
+        FWLIB/inc/stm32f10x_crc.h
+        FWLIB/inc/stm32f10x_dac.h
+        FWLIB/inc/stm32f10x_dbgmcu.h
+        FWLIB/inc/stm32f10x_dma.h
+        FWLIB/inc/stm32f10x_exti.h
+        FWLIB/inc/stm32f10x_flash.h
+        FWLIB/inc/stm32f10x_fsmc.h
+        FWLIB/inc/stm32f10x_gpio.h
+        FWLIB/inc/stm32f10x_i2c.h
+        FWLIB/inc/stm32f10x_iwdg.h
+        FWLIB/inc/stm32f10x_pwr.h
+        FWLIB/inc/stm32f10x_rcc.h
+        FWLIB/inc/stm32f10x_rtc.h
+        FWLIB/inc/stm32f10x_sdio.h
+        FWLIB/inc/stm32f10x_spi.h
+        FWLIB/inc/stm32f10x_tim.h
+        FWLIB/inc/stm32f10x_usart.h
+        FWLIB/inc/stm32f10x_wwdg.h
+        FWLIB/src/misc.c
+        FWLIB/src/stm32f10x_adc.c
+        FWLIB/src/stm32f10x_bkp.c
+        FWLIB/src/stm32f10x_can.c
+        FWLIB/src/stm32f10x_cec.c
+        FWLIB/src/stm32f10x_crc.c
+        FWLIB/src/stm32f10x_dac.c
+        FWLIB/src/stm32f10x_dbgmcu.c
+        FWLIB/src/stm32f10x_dma.c
+        FWLIB/src/stm32f10x_exti.c
+        FWLIB/src/stm32f10x_flash.c
+        FWLIB/src/stm32f10x_fsmc.c
+        FWLIB/src/stm32f10x_gpio.c
+        FWLIB/src/stm32f10x_i2c.c
+        FWLIB/src/stm32f10x_iwdg.c
+        FWLIB/src/stm32f10x_pwr.c
+        FWLIB/src/stm32f10x_rcc.c
+        FWLIB/src/stm32f10x_rtc.c
+        FWLIB/src/stm32f10x_sdio.c
+        FWLIB/src/stm32f10x_spi.c
+        FWLIB/src/stm32f10x_tim.c
+        FWLIB/src/stm32f10x_usart.c
+        FWLIB/src/stm32f10x_wwdg.c
+        Periphery/AD/AD.c
+        Periphery/AD/AD.h
+        Periphery/DHT11/DHT11.c
+        Periphery/DHT11/DHT11.h
+        Periphery/EXTI/EXTI.c
+        Periphery/EXTI/EXTI.h
+        Periphery/IO/IO.c
+        Periphery/IO/IO.h
+        Periphery/SMotor/SMotor.c
+        Periphery/SMotor/SMotor.h
+        Periphery/SysTick/SysTick.c
+        Periphery/SysTick/SysTick.h
+        Periphery/TIM/TIM.c
+        Periphery/TIM/TIM.H
+        Periphery/WiFi/WiFi.c
+        Periphery/WiFi/WiFi.h
+        USER/Main/common.c
+        USER/Main/common.h
+        USER/Main/Header.h)

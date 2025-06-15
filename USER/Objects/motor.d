@@ -1,0 +1,12 @@
+.\objects\motor.o: ..\Periphery\Motor\Motor.c
+.\objects\motor.o: ..\Periphery\Motor\Motor.h
+.\objects\motor.o: ..\CORE\stm32f10x.h
+.\objects\motor.o: ..\CORE\core_cm3.h
+.\objects\motor.o: D:\KEIL\Keil5.2MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\motor.o: ..\CORE\system_stm32f10x.h
+.\objects\motor.o: ..\CORE\stm32f10x_conf.h
+.\objects\motor.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\motor.o: ..\CORE\stm32f10x.h
+.\objects\motor.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\motor.o: .\Main\common.h
+.\objects\motor.o: ..\FWLIB\inc\misc.h

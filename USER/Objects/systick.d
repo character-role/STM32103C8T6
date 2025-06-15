@@ -1,0 +1,12 @@
+.\objects\systick.o: ..\Periphery\SysTick\SysTick.c
+.\objects\systick.o: ..\Periphery\SysTick\SysTick.h
+.\objects\systick.o: ..\CORE\stm32f10x.h
+.\objects\systick.o: ..\CORE\core_cm3.h
+.\objects\systick.o: D:\Arm\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: ..\CORE\system_stm32f10x.h
+.\objects\systick.o: ..\CORE\stm32f10x_conf.h
+.\objects\systick.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\systick.o: ..\CORE\stm32f10x.h
+.\objects\systick.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\systick.o: ..\FWLIB\inc\stm32f10x_tim.h
+.\objects\systick.o: ..\FWLIB\inc\misc.h

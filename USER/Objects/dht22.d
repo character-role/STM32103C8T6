@@ -1,0 +1,12 @@
+.\objects\dht22.o: ..\Periphery\DHT22\DHT22.c
+.\objects\dht22.o: ..\Periphery\DHT22\DHT22.h
+.\objects\dht22.o: ..\CORE\stm32f10x.h
+.\objects\dht22.o: ..\CORE\core_cm3.h
+.\objects\dht22.o: D:\KEIL\Keil5MDK\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dht22.o: ..\CORE\system_stm32f10x.h
+.\objects\dht22.o: ..\CORE\stm32f10x_conf.h
+.\objects\dht22.o: ..\FWLIB\inc\stm32f10x_gpio.h
+.\objects\dht22.o: ..\CORE\stm32f10x.h
+.\objects\dht22.o: ..\FWLIB\inc\stm32f10x_rcc.h
+.\objects\dht22.o: .\Main\common.h
+.\objects\dht22.o: ..\FWLIB\inc\misc.h
